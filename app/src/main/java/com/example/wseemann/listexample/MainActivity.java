@@ -37,21 +37,10 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView) findViewById(android.R.id.list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        List<String> items = Arrays.asList("http://98.212.85.121:53042/A Day to Remember/Homesick/01 - The Downfall Of Us All.mp3",
-                "http://98.212.85.121:53042/American Me/Siberian Nightmare Machine/04 - Die Faster.mp3",
-                "http://98.212.85.121:53042/Ben Weasel/These Ones Are Bitter/01_-_Let_Freedom_Ring.mp3",
-                "http://98.212.85.121:53042/A Day to Remember/Homesick/01 - The Downfall Of Us All.mp3",
-                "http://98.212.85.121:53042/American Me/Siberian Nightmare Machine/04 - Die Faster.mp3",
-                "http://98.212.85.121:53042/Ben Weasel/These Ones Are Bitter/01_-_Let_Freedom_Ring.mp3",
-                "http://98.212.85.121:53042/A Day to Remember/Homesick/01 - The Downfall Of Us All.mp3",
-                "http://98.212.85.121:53042/American Me/Siberian Nightmare Machine/04 - Die Faster.mp3",
-                "http://98.212.85.121:53042/Ben Weasel/These Ones Are Bitter/01_-_Let_Freedom_Ring.mp3",
-                "http://98.212.85.121:53042/A Day to Remember/Homesick/01 - The Downfall Of Us All.mp3",
-                "http://98.212.85.121:53042/American Me/Siberian Nightmare Machine/04 - Die Faster.mp3",
-                "http://98.212.85.121:53042/Ben Weasel/These Ones Are Bitter/01_-_Let_Freedom_Ring.mp3",
-                "http://98.212.85.121:53042/A Day to Remember/Homesick/01 - The Downfall Of Us All.mp3",
-                "http://98.212.85.121:53042/American Me/Siberian Nightmare Machine/04 - Die Faster.mp3",
-                "http://98.212.85.121:53042/Ben Weasel/These Ones Are Bitter/01_-_Let_Freedom_Ring.mp3");
+        List<String> items = Arrays.asList("http://127.0.0.1/A Day to Remember/Homesick/01 - The Downfall Of Us All.mp3",
+                "Add more URLs here",
+                "And here",
+                "And here");
 
         recyclerView.setAdapter(new RecyclerAdapter(items, imageHandler));
     }
